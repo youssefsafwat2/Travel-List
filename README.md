@@ -24,7 +24,7 @@ The application is built using the following components:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/travel-packing-list.git
+   git clone https://github.com/youssefsafwat2/Travel-List.git
    ```
 
 2. Navigate to the project directory:
@@ -42,7 +42,7 @@ The application is built using the following components:
 4. Start the development server:
 
    ```bash
-   npm start
+   npm run start
    ```
 
 The application will be available at `http://localhost:3000`.

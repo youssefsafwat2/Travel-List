@@ -31,7 +31,7 @@ The application is built using the following components:
 2. Navigate to the project directory:
 
    ```bash
-   cd travel-packing-list
+   cd travel-list
    ```
 
 3. Install the dependencies:

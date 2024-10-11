@@ -12,10 +12,8 @@ html {
 
 body {
   font-size: 2.4rem;
-  font-family: sans-serif;
-  color: #5a3e2b;
-  font-family: "Quicksand";
-  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  color: #3c3c3c; /* Dark Gray for body text */
 }
 
 .app {
@@ -27,7 +25,8 @@ body {
 
 h1 {
   text-align: center;
-  background-color: #f4a226;
+  background-color: #6ab04c; /* Bright Green for header */
+  color: #ffffff; /* White for header text */
   font-family: "Monoton";
   font-size: 8rem;
   text-transform: uppercase;
@@ -38,7 +37,7 @@ h1 {
 }
 
 .add-form {
-  background-color: #e5771f;
+  background-color: #b5d7a8; /* Soft Peach for the form background */
   padding: 2.8rem 0;
   display: flex;
   align-items: center;
@@ -54,8 +53,8 @@ h3 {
 button,
 select,
 input {
-  background-color: #ffebb3;
-  color: #5a3e2b;
+  background-color: #eeffdc; /* White for buttons and inputs */
+  color: #3c3c3c; /* Dark Gray for text */
   font-family: inherit;
   border: none;
   border-radius: 10rem;
@@ -67,12 +66,12 @@ input {
 
 .add-form button {
   text-transform: uppercase;
-  background-color: #76c7ad;
+  background-color: #bbff7c; /* Soft Red for add button */
 }
 
 .list {
-  background-color: #5a3e2b;
-  color: #ffebb3;
+  background-color: #d1dec3; /* Light Blue for the list background */
+  color: #3c3c3c; /* Dark Gray for list text */
   padding: 4rem 0;
 
   display: flex;
@@ -112,7 +111,7 @@ input {
 input[type="checkbox"] {
   height: 2rem;
   width: 2rem;
-  accent-color: #e5771f;
+  accent-color: #98f891; /* Soft Peach for checkbox */
 }
 
 .list li button {
@@ -125,7 +124,8 @@ input[type="checkbox"] {
 }
 
 .stats {
-  background-color: #76c7ad;
+  background-color: #6ab04c; /* Bright Green for stats */
+  color: #ffffff; /* White for stats text */
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
